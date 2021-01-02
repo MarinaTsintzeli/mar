@@ -1,0 +1,217 @@
+-------------------------------------------------------------------------------
+Test set: testrunners.MyTestRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 1,880.974 s <<< FAILURE! - in testrunners.MyTestRunnerTest
+Accounts page title(Account Page Featyre)  Time elapsed: 620.76 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.1.14', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_271'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x013EC0C3+3326147]
+	Ordinal0 [0x012D0851+2164817]
+	Ordinal0 [0x01157298+619160]
+	Ordinal0 [0x0114B17F+569727]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x011538B1+604337]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x0114AEA2+568994]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x01151D2C+597292]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x0114AEA2+568994]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x0114FE62+589410]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x0114AEA2+568994]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x0114F075+585845]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x0114AEA2+568994]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x01146776+550774]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x01149F13+565011]
+	Ordinal0 [0x01149D07+564487]
+	Ordinal0 [0x011582C0+623296]
+	Ordinal0 [0x010F6BDD+224221]
+	Ordinal0 [0x010F5CAC+220332]
+	Ordinal0 [0x010F189B+202907]
+	Ordinal0 [0x010D3DF4+81396]
+	Ordinal0 [0x010D4DEE+85486]
+	Ordinal0 [0x010D4D79+85369]
+	Ordinal0 [0x012E85DC+2262492]
+	GetHandleVerifier [0x01572874+1487204]
+	GetHandleVerifier [0x015723CD+1486013]
+	GetHandleVerifier [0x0157A368+1518680]
+	GetHandleVerifier [0x01572F4E+1488958]
+	Ordinal0 [0x012DED0D+2223373]
+	Ordinal0 [0x012EA12B+2269483]
+	Ordinal0 [0x012EA26F+2269807]
+	Ordinal0 [0x012FECB8+2354360]
+	BaseThreadInitThunk [0x7588343D+18]
+	RtlInitializeExceptionChain [0x777B9812+99]
+	RtlInitializeExceptionChain [0x777B97E5+54]
+
+
+Accounts page title(Account Page Featyre)  Time elapsed: 620.788 s  <<< ERROR!
+java.lang.NullPointerException
+
+Accounts page title(Account Page Featyre)  Time elapsed: 620.788 s  <<< ERROR!
+java.lang.NullPointerException
+
+Forgot Password link(Login Page feature)  Time elapsed: 604.276 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.1.14', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_271'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x013EC0C3+3326147]
+	Ordinal0 [0x012D0851+2164817]
+	Ordinal0 [0x01157298+619160]
+	Ordinal0 [0x0114B17F+569727]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x011538B1+604337]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x0114AEA2+568994]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x01151D2C+597292]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x0114AEA2+568994]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x0114FE62+589410]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x0114AEA2+568994]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x0114F075+585845]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x0114AEA2+568994]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x01146776+550774]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x01149F13+565011]
+	Ordinal0 [0x01149D07+564487]
+	Ordinal0 [0x011582C0+623296]
+	Ordinal0 [0x010F6BDD+224221]
+	Ordinal0 [0x010F5CAC+220332]
+	Ordinal0 [0x010F189B+202907]
+	Ordinal0 [0x010D3DF4+81396]
+	Ordinal0 [0x010D4DEE+85486]
+	Ordinal0 [0x010D4D79+85369]
+	Ordinal0 [0x012E85DC+2262492]
+	GetHandleVerifier [0x01572874+1487204]
+	GetHandleVerifier [0x015723CD+1486013]
+	GetHandleVerifier [0x0157A368+1518680]
+	GetHandleVerifier [0x01572F4E+1488958]
+	Ordinal0 [0x012DED0D+2223373]
+	Ordinal0 [0x012EA12B+2269483]
+	Ordinal0 [0x012EA26F+2269807]
+	Ordinal0 [0x012FECB8+2354360]
+	BaseThreadInitThunk [0x7588343D+18]
+	RtlInitializeExceptionChain [0x777B9812+99]
+	RtlInitializeExceptionChain [0x777B97E5+54]
+
+
+Forgot Password link(Login Page feature)  Time elapsed: 604.277 s  <<< ERROR!
+java.lang.NullPointerException
+
+Forgot Password link(Login Page feature)  Time elapsed: 604.277 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login with correct credentials(Login Page feature)  Time elapsed: 602.88 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.1.14', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_271'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x013EC0C3+3326147]
+	Ordinal0 [0x012D0851+2164817]
+	Ordinal0 [0x01157298+619160]
+	Ordinal0 [0x0114B17F+569727]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x011538B1+604337]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x0114AEA2+568994]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x01151D2C+597292]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x0114AEA2+568994]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x0114FE62+589410]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x0114AEA2+568994]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x0114F075+585845]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x0114AEA2+568994]
+	Ordinal0 [0x0114A421+566305]
+	Ordinal0 [0x0114A815+567317]
+	Ordinal0 [0x0114A135+565557]
+	Ordinal0 [0x01146776+550774]
+	Ordinal0 [0x0114A0F1+565489]
+	Ordinal0 [0x01149F13+565011]
+	Ordinal0 [0x01149D07+564487]
+	Ordinal0 [0x011582C0+623296]
+	Ordinal0 [0x010F6BDD+224221]
+	Ordinal0 [0x010F5CAC+220332]
+	Ordinal0 [0x010F189B+202907]
+	Ordinal0 [0x010D3DF4+81396]
+	Ordinal0 [0x010D4DEE+85486]
+	Ordinal0 [0x010D4D79+85369]
+	Ordinal0 [0x012E85DC+2262492]
+	GetHandleVerifier [0x01572874+1487204]
+	GetHandleVerifier [0x015723CD+1486013]
+	GetHandleVerifier [0x0157A368+1518680]
+	GetHandleVerifier [0x01572F4E+1488958]
+	Ordinal0 [0x012DED0D+2223373]
+	Ordinal0 [0x012EA12B+2269483]
+	Ordinal0 [0x012EA26F+2269807]
+	Ordinal0 [0x012FECB8+2354360]
+	BaseThreadInitThunk [0x7588343D+18]
+	RtlInitializeExceptionChain [0x777B9812+99]
+	RtlInitializeExceptionChain [0x777B97E5+54]
+
+
+Login with correct credentials(Login Page feature)  Time elapsed: 602.881 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login with correct credentials(Login Page feature)  Time elapsed: 602.881 s  <<< ERROR!
+java.lang.NullPointerException
+
