@@ -9,7 +9,6 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 				features = {"scr\\test\\resources\\appfeatures"},
 				glue = {"stepdefinitions","apphooks"},
-				tags = "@p1",
 				monochrome = true,
 				dryRun = false,
 				plugin = {"pretty",
